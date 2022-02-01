@@ -1,0 +1,428 @@
+/* General styles */
+span.iconContainer {
+  font-size: 2rem;
+  height: 50px;
+  width: 45px;
+  border-radius: 10px;
+  background: #eeecf9;
+  display: inline-block;
+  position: relative;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navIcon {
+  font-size: 2em;
+}
+
+.iconNavigationContainer {
+  position: relative;
+  display: flex;
+}
+
+span.subHeader {
+  color: #cfcaf5;
+}
+
+.iconContainer.activeIcon {
+  background: #15a964;
+  color: #ffffff;
+}
+
+.activeText {
+  color: #15a964;
+}
+
+.backToLogin {
+  color: #971697;
+}
+
+.backToLogin a {
+  text-decoration: none;
+  color: #971697;
+  cursor: pointer;
+}
+
+.nextAndPrevContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nextBtn,
+.prevBtn {
+  padding: 8px;
+  background: #45c78a;
+  border-radius: 4px;
+  color: #ffffff;
+  width: 120px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+.nextBtn:hover,
+.prevBtn:hover {
+  background: #ffffff;
+  color: #45c78a;
+  border: 2px solid #45c78a;
+}
+
+
+/* Landing Login Page styles */
+
+@media all and (min-width: 992px) {
+  .container-fluid.landingPage {
+    height: 100vh;
+  }
+
+  .leftLandingPage {
+    height: 100vh;
+  }
+
+  .rightLandingPage {
+    height: 100vh;
+  }
+
+  .imageContainer {
+    margin-top: -25%;
+    width: 100%;
+  }
+}
+
+img.landingPageImg {
+  width: 95%;
+  margin-left: 7%;
+}
+
+.leftLandingPage {
+  background: #eeecf9;
+}
+
+.rightLandingPage {
+  background: #ffffff;
+}
+
+.welcomeHeader {
+  font-size: 1.4em;
+}
+
+.noteInfo {
+  color: #cfcaf5;
+}
+
+.chooseLogin {
+  display: flex;
+  column-gap: 45%;
+}
+
+:is(.chooseAdminLogin a, .forgetPassword a, .registerLink a) {
+  text-decoration: none;
+  color: rgb(151, 22, 151);
+}
+
+.chooseClientLogin a {
+  color: #45c78a;
+  text-decoration: none;
+}
+
+input:is(.loginInput) {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid #efeff3;
+  width: 85%;
+}
+
+.trueSmsText {
+  color: #45c78a;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.rememberMeAndForgetPassword {
+  display: flex;
+  column-gap: 28%;
+}
+
+.loginBtn {
+  background: #45c78a;
+  border: none;
+  padding: none;
+  border-radius: 4px;
+  padding: 8px;
+  width: 88%;
+}
+
+.termOfUseAndPrivacy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3%;
+}
+
+.rememberMeAndForgetPassword {
+  display: flex;
+  column-gap: 8%;
+}
+
+.landingPageImg {
+  width: 70%;
+}
+
+/* Recover Password page Styles */
+
+.recoverPasswordLeftPage {
+  background: #eeecf9;
+}
+
+.trueSmsText {
+  color: #45c78a;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+p.subHeader {
+  color: #cfcaf5;
+}
+
+.recoverPasswordImageContainer {
+  width: 70%;
+  height: 70%;
+  margin-left: 15%;
+}
+
+.recoverPasswordRightPage {
+  background-color: #ffffff;
+}
+
+.recoverHeader h1 {
+  font-size: 1.6rem;
+}
+
+.recoverPasswordForm input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #efeff3;
+  width: 85%;
+}
+
+.recoverPasswordBtn {
+  border: none;
+  outline: none;
+  width: 85%;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #68d3af;
+}
+
+
+
+/* Account Information styles */
+
+.accountInfoLeftPage {
+  background: #eeecf9;
+}
+
+.accountInfoRightPage {
+  background: #ffffff;
+}
+
+.trueSmsText {
+  color: #45c78a;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.accountInfoHeader {
+  display: flex;
+  column-gap: 3%;
+  position: relative;
+  border-bottom: 2px solid #efeff3;
+}
+
+.fillFormInstruction {
+  color: #cfcaf5;
+}
+
+
+
+/* Personal Information styles */
+.personalInfoLeftPage {
+  background: #eeecf9;
+}
+
+.personalInfoRightPage {
+  background: #ffffff;
+}
+
+.trueSmsText {
+  color: #45c78a;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.personalInfoHeader {
+  display: flex;
+  column-gap: 3%;
+  position: relative;
+  border-bottom: 2px solid #efeff3;
+}
+
+
+
+/* billing Infomation styles */
+
+.billingInfoLeftPage {
+  background: #eeecf9;
+}
+
+.billingInfoRightPage {
+  background: #ffffff;
+}
+
+.trueSmsText {
+  color: #45c78a;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.billingInfoHeader {
+  display: flex;
+  column-gap: 3%;
+  position: relative;
+  border-bottom: 2px solid #efeff3;
+}
+
+span.subHeader {
+  color: #cfcaf5;
+}
+
+.planContainer {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #45c78a;
+  position: relative;
+}
+
+.billingInfoRightPage .row .col-lg-4 {
+  position: relative;
+}
+
+.row .col-lg-4.card-1,
+.row .col-lg-4.card-2,
+.row .col-lg-4.card-3 {
+  background: #fafafa;
+}
+
+.col-lg-4.card-1,
+.col-lg-4.card-2,
+.col-lg-4.card-3 {
+  width: 16rem;
+}
+
+.planContainer {
+  position: absolute;
+  top: -6%;
+  left: 38%;
+}
+
+.letsTryBtn {
+  padding: 8px;
+  background: #61c975;
+  border-radius: 6px;
+  color: #ffffff;
+  width: 60%;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.bxs-time-five {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+}
+
+.paymentOptionHeader {
+  font-size: 1.8em;
+}
+
+.price {
+  color: #45c78a;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.cardHeader {
+  color: #808080;
+  font-size: 1.3rem;
+}
+
+.subscriptionText {
+  font-weight: bold;
+  color: #808080;
+}
+
+.paymentOptionCheckBox input[type="checkbox"] {
+  border-radius: 50%;
+  font-size: 1.8rem;
+}
+
+
+/* media queries */
+
+@media all and (max-width: 720px) {
+
+  .accountInfoHeader,
+  .personalInfoHeader,
+  .billingInfoHeader {
+    display: flex;
+    position: relative;
+    border-bottom: 2px solid #efeff3;
+    font-size: 0.5rem;
+  }
+
+  span.iconContainer {
+    font-size: 0.5rem;
+    height: 15px;
+    width: 20px;
+    border-radius: 2px;
+    background: #eeecf9;
+    display: inline-block;
+    position: relative;
+  }
+}
+
+@media all and (max-width: 992px) {
+
+  .col-lg-4.card-1,
+  .col-lg-4.card-2 {
+    margin-bottom: 20%;
+  }
+
+  .chooseLogin {
+    display: flex;
+    column-gap: 30%;
+  }
+
+  .icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .iconNavigationContainer {
+    position: relative;
+    display: flex;
+  }
+
+}
