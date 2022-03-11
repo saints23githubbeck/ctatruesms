@@ -1,0 +1,46 @@
+.navImage {
+    height: 20px;
+    width: 20px;
+}
+.dropdownImage {
+    height: 15px;
+    width: 15px;
+}
+nav h3 {
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.navToggler {
+    background-image: url('/images/toggler.png');
+    background-size: cover;
+}
+.adminHeader {
+    text-align: right;
+}
+section form label {
+    line-height: 3;
+}
+.sidenav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  .dropdown-container {
+    display: none;
+    padding-left: 8px;
+  }

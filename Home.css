@@ -1,0 +1,110 @@
+.navImage {
+    height: 20px;
+    width: 20px;
+}
+.dropdownImage {
+    height: 15px;
+    width: 15px;
+}
+nav h3 {
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.navToggler {
+    background-image: url('/images/toggler.png');
+    background-size: cover;
+}
+.sidenav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+}
+
+.growth, .totalSMS, .adminHeader {
+    text-align: right;
+}
+.failedSent {
+    line-height: .8;    
+}
+.statusContainer {
+    font-size: small;
+    line-height: .1;
+}
+.statusImage {
+    height: 20px;
+    width: 20px;
+}
+#chart, #chart_div {
+    width: auto;
+}
+
+.box {
+    position: relative;
+}
+.box .percent {
+    height: 150px;
+    width: 150px;
+}
+.box .percent svg circle {
+    fill: none;
+    stroke-width: 10;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+    stroke-linecap: round;
+}
+.box .percent svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #03a9f4;
+}
+.box .percent svg circle:nth-child(2) {
+    stroke-dashoffset: calc(320 - (320 * 63) / 100);
+    stroke: #f3f3f3;
+} 
+.box .percent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .percent .sent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.x.axis path {
+    display: none;
+}

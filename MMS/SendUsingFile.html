@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./SendUsingFile.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title>Send Using File</title>
+    </head>
+    <body class="container-fluid">
+        <div class="row">
+            <div class="col-2">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" onclick="displayContent()">
+                        <span class="navbar-toggler-icon navToggler"></span>
+                    </button>
+                    <div class="nav collapse navbar-collapse" id="navBar">
+                        <div class="navbar nav p-2 sidenav">
+                            <a href="#" class="navbar-brand text-success p-0">
+                                <h3>TRUE SMS</h3>
+                            </a>
+                            
+                            <div class="navbar sidenav">
+                                <a href="#" class="nav-link text-secondary">
+                                    <img src="/images/home.png" alt="home" class="navImage">
+                                    <span class="mx-2">Home</span>
+                                </a>
+                                <a href="#" class="nav-link text-secondary mt-2">
+                                    <img src="/images/report.png" alt="report" class="navImage">
+                                    <span class="mx-2">Client Report</span>
+                                </a>
+                                <button class="dropdown-btn text-secondary mt-2">
+                                    <img src="/images/sending.png" alt="sending" class="navImage">
+                                    <span class="mx-2">Sending</span>
+                                    <i class="fa fa-caret-down mx-1"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="../Sending/SendingServer.html" class="dropdown-item">
+                                        <img src="/images/send.png" alt="send" class="dropdownImage">
+                                        <span class="mx-1">Sending Servers</span>
+                                    </a>
+                                    <a href="../Sending/SenderID.html" class="dropdown-item">
+                                        <img src="/images/sender.png" alt="sender" class="dropdownImage">
+                                        <span class="mx-1">Sender ID</span>
+                                    </a>
+                                    <a href="../Sending/Numbers.html" class="dropdown-item">
+                                        <img src="/images/numbers.png" alt="numbers" class="dropdownImage">
+                                        <span class="mx-1">Numbers</span>
+                                    </a>
+                                    <a href="../Sending/Keywords.html" class="dropdown-item">
+                                        <img src="/images/keyword.png" alt="keyword" class="dropdownImage">
+                                        <span class="mx-1">Keyword</span>
+                                    </a>
+                                    <a href="../Sending/TemplateTags.html" class="dropdown-item">
+                                        <img src="/images/tags.png" alt="tags" class="dropdownImage">
+                                        <span class="mx-1">Template Tags</span>
+                                    </a>
+                                </div>
+                                <a href="/Contacts.html" class="nav-link text-secondary mt-2">
+                                    <img src="/images/contacts.png" alt="contacts" class="navImage">
+                                    <span class="mx-2">Contacts</span>
+                                </a>
+                                <a href="/Blacklist.html" class="nav-link text-secondary mt-2">
+                                    <img src="/images/blacklist.png" alt="blacklist" class="navImage">
+                                    <span class="mx-2">Blacklist</span>
+                                </a>
+                                <a href="#" class="nav-link text-secondary mt-2">
+                                    <img src="/images/sms.png" alt="sms" class="navImage">
+                                    <span class="mx-2">SMS</span>
+                                </a>
+                                <button class="dropdown-btn text-secondary">
+                                    <img src="/images/voice.png" alt="voice" class="navImage">
+                                    <span class="mx-2">Voice</span>
+                                    <i class="fa fa-caret-down mx-3"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="../Voice/CampaignBuilder.html" class="dropdown-item">
+                                        <img src="/images/builder.png" alt="numbers" class="dropdownImage">
+                                        <span class="mx-1">Campaign Builder</span> 
+                                    </a>
+                                    <a href="../Voice/QuickSend.html" class="dropdown-item">
+                                        <img src="/images/send.png" alt="keyword" class="dropdownImage">
+                                        <span class="mx-1">Quick Send</span>
+                                    </a>
+                                    <a href="../Voice/SendUsingFile.html" class="dropdown-item">
+                                        <img src="/images/file2.png" alt="keyword" class="dropdownImage">
+                                        <span class="mx-1">Send Using File</span>
+                                    </a>
+                                </div>
+                                <button class="dropdown-btn text-secondary mt-2">
+                                    <img src="/images/mms.png" alt="mms" class="navImage">
+                                    <span class="mx-2">MMS</span>
+                                    <i class="fa fa-caret-down mx-3"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="../MMS/CampaignBuilder.html" class="dropdown-item">
+                                        <img src="/images/builder.png" alt="numbers" class="dropdownImage">
+                                        <span class="mx-1">Campaign Builder</span> 
+                                    </a>
+                                    <a href="../MMS/QuickSend.html" class="dropdown-item">
+                                        <img src="/images/send.png" alt="keyword" class="dropdownImage">
+                                        <span class="mx-1">Quick Send</span>
+                                    </a>
+                                    <a href="../MMS/SendUsingFile.html" class="dropdown-item">
+                                        <img src="/images/file2.png" alt="keyword" class="dropdownImage">
+                                        <span class="mx-1">Send Using File</span>
+                                    </a>
+                                </div>
+                                <button class="dropdown-btn text-secondary mt-2">
+                                    <img src="/images/whatsapp.png" alt="whatsapp" class="navImage">
+                                    <span class="mx-2">Whatsapp</span>
+                                    <i class="fa fa-caret-down mx-1"></i>
+                                </button>
+                                <div class="dropdown-container">
+                                    <a href="../Whatsapp/CampaignBuilder.html" class="dropdown-item">
+                                        <img src="/images/builder.png" alt="numbers" class="dropdownImage">
+                                        <span class="mx-1">Campaign Builder</span> 
+                                    </a>
+                                    <a href="../Whatsapp/QuickSend.html" class="dropdown-item">
+                                        <img src="/images/send.png" alt="keyword" class="dropdownImage">
+                                        <span class="mx-1">Quick Send</span>
+                                    </a>
+                                    <a href="../Whatsapp/SendUsingFile.html" class="dropdown-item">
+                                        <img src="/images/file2.png" alt="keyword" class="dropdownImage">
+                                        <span class="mx-1">Send Using File</span>
+                                    </a>
+                                </div>
+                                <a href="/ChatCenter.html" class="nav-link text-secondary mt-2">
+                                    <img src="/images/chatCenter.png" alt="chatCenter" class="navImage">
+                                    <span class="mx-2">Chat Center</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+                
+            <div class="col-10" id="content" style="display: block;">
+                <header class="bg-success" >
+                    <div class="mx-1 row">
+                        <div class="col-lg-8 mt-2">
+                            <img src="/images/search.png" alt="search" class="navImage">
+                            <span class="text-light text-wrap mx-2">Search transactions, invoices or help</span>
+                        </div>
+                        <div class="col-lg-4 adminHeader">
+                            <img src="/images/notification.png" alt="notification" width="20px" height="20px">
+                            <span class="text-light">|</span>
+                            <button class="btn text-light dropdown-toggle" type="button">
+                                ADMINISTRATOR
+                            </button>
+                            <img src="/images/image2.png" alt="admin" class="rounded-circle" width="30px"height="30px">
+                        </div>
+                    </div>
+                </header>
+                <section class="bg-light container">
+                    <div>
+                        <div class="row container">
+                            <div class="col-lg-7 col-md-12 mt-4 bg-white rounded shadow">
+                                <div class="p-4">
+                                    <h4>Send Using File</h4>
+                                    <button type="button" class="btn btn-success mt-3">
+                                        <img src="/images/file.png" alt="sampleFile" width="20px" height="20px">
+                                        Download Sample File
+                                    </button>
+                                    <form>
+                                        <label for="name">Name</label>
+                                        <input type="text" class="form-control" placeholder="Required">
+                                        <label for="server">Sending Server</label>
+                                        <select name="server" class="form-select">
+                                            <option selected>Twilio</option>
+                                        </select>
+                                        <p class="mt-3">ORIGINATOR</p>
+                                        <div class="row">
+                                            <div class="col">
+                                                <P for="senderId">SENDER ID</P>
+                                                <select name="senderId" class="form-select">
+                                                    <option selected>USMS</option>
+                                                </select>
+                                            </div>
+                                            <div class="col">
+                                                <P for="number">Phone Numbers</P>
+                                                <select name="number" class="form-select" disabled>
+                                                    <option selected>
+                                                        23398745103
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="text-center text-success mt-3 uploadBorder">
+                                            <h4 class="mt-3">Click Here To Upload</h4>
+                                            <img src="/images/file1.png" alt="file" width="70px" height="70px">
+                                            <p>The file must contain at least two columns with a recipient, include acountry code at the beginning, and a message for a successful import. Theonly supported file: <span class="text-warning">.CSV</span></p>
+                                        </div>
+                                        <div class="mt-3">
+                                            <input type="checkbox" class="form-check-input">
+                                            <span>File contains header row?</span>
+                                        </div>
+                                        <div>
+                                            <label>MMS File</label>
+                                            <div class="input-group">
+                                                <input type="file" class="form-control">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text">Upload</span>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="mt-3">
+                                            <input type="checkbox" class="form-check-input">
+                                            <span>Schedule campaign?</span>
+                                        </div>
+                                        <button type="button" class="btn btn-success mt-3">
+                                            <img src="/images/sent.png" alt="sent" width="20px" height="20px">
+                                            Send
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+        <script>
+            var dropdown = document.getElementsByClassName("dropdown-btn");
+            var i;
+
+            for (i = 0; i < dropdown.length; i++) {
+                dropdown[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.nextElementSibling;
+                    if (dropdownContent.style.display === "block") {
+                        dropdownContent.style.display = "none";
+                    } else {
+                        dropdownContent.style.display = "block";
+                    }
+                });
+            }
+            
+            const displayContent =()=> {
+                let display = document.getElementById("content").style.display ;
+                if (display == "block") {
+                    document.getElementById("content").style.display = "none";
+                } else {
+                    document.getElementById("content").style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>
