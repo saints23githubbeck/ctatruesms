@@ -3,20 +3,70 @@
   <component name="ChangeListManager">
     <list default="true" id="353c26cc-35d8-422f-ade7-4cc4bf8411b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blacklist.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Blacklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blacklist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatCenter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatCenter.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChatCenter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientDashboard.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contacts.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/NewSubscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/NewSubscription.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Customer/Subscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/Customer/Subscription.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/AddCustomer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/AddCustomer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/NewCustomer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/NewCustomer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/NewSubscription.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/NewSubscription.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/Subscription.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/Subscription.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomizeTheme.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CustomizeTheme.html" beforeDir="false" afterPath="$PROJECT_DIR$/CustomizeTheme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sending/CreatePlan.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sending/CreatePlan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sending/CreateServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sending/CreateServer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sending/CreateTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sending/CreateTemplate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sending/Keywords.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sending/Keywords.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sending/Numbers.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sending/Numbers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sending/SenderID.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sending/SenderID.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sending/SendingServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sending/SendingServer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sending/TemplateTags.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sending/TemplateTags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS/CampaignBuilder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS/CampaignBuilder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS/QuickSend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS/QuickSend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS/SendUsingFile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS/SendUsingFile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/AddNumber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/AddNumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/CreatePlan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/CreatePlan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/CreateServer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/CreateServer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/CreateTemplate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/CreateTemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/Keywords.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/Keywords.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/NewKeyword.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/NewKeyword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/Numbers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/Numbers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/Plan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/Plan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/SenderID.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/SenderID.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/SendingServer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/SendingServer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/Server.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/Server.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/TemplateTags.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sending/TemplateTags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Settings/SettingsAddNew.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Settings/SettingsAddNew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice/CampaignBuilder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice/CampaignBuilder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice/QuickSend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice/QuickSend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice/SendUsingFile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voice/SendUsingFile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatsapp/CampaignBuilder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatsapp/CampaignBuilder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatsapp/QuickSend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatsapp/QuickSend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatsapp/SendUsingFile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Whatsapp/SendUsingFile.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,88 +77,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sending/CreateServer.html">
+        <entry file="file://$PROJECT_DIR$/ChatCenter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2788">
-              <caret line="164" selection-start-line="164" selection-end-line="164" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sending/Numbers.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="272" column="68" selection-start-line="272" selection-start-column="68" selection-end-line="272" selection-end-column="68" />
-              <folding>
-                <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sending/Keywords.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2873">
-              <caret line="169" column="55" selection-start-line="169" selection-start-column="55" selection-end-line="169" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sending/CreatePlan.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="177" column="60" selection-start-line="177" selection-start-column="60" selection-end-line="177" selection-end-column="60" />
-              <folding>
-                <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sending/TemplateTags.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5984">
-              <caret line="352" column="68" selection-start-line="352" selection-start-column="68" selection-end-line="352" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sending/CreateTemplate.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="71" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
-            </state>
+            <state relative-caret-position="-5083" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blacklist.html">
+        <entry file="file://$PROJECT_DIR$/ClientDashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            <state relative-caret-position="-2822">
+              <caret line="134" column="73" selection-start-line="134" selection-start-column="73" selection-end-line="134" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateServer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4080">
+              <caret line="216" column="58" selection-start-line="216" selection-start-column="58" selection-end-line="216" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateTemplate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="194" column="58" selection-start-line="194" selection-start-column="58" selection-end-line="194" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CustomizeTheme.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="147" selection-start-line="147" selection-end-line="147" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style.css">
+        <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="430">
+              <caret line="82" column="75" lean-forward="true" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="56" column="120" lean-forward="true" selection-start-line="56" selection-start-column="120" selection-end-line="56" selection-end-column="120" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registrationPages/accountInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-717" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreatePlan.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="195" column="58" selection-start-line="195" selection-start-column="58" selection-end-line="195" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -129,15 +185,11 @@
       <list>
         <option value="$PROJECT_DIR$/registrationPages/personalInfo.html" />
         <option value="$PROJECT_DIR$/Sending/AddNumber.html" />
-        <option value="$PROJECT_DIR$/Home.html" />
         <option value="$PROJECT_DIR$/Sending/Plan.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Customer/NewCustomer.html" />
         <option value="$PROJECT_DIR$/Customer/AddCustomer.html" />
         <option value="$PROJECT_DIR$/Customer/Subscription.html" />
         <option value="$PROJECT_DIR$/Customer/NewSubscription.html" />
-        <option value="$PROJECT_DIR$/CustomizeTheme.html" />
-        <option value="$PROJECT_DIR$/ClientDashboard.html" />
         <option value="$PROJECT_DIR$/Sending/SendingServer.html" />
         <option value="$PROJECT_DIR$/Sending/SenderID.html" />
         <option value="$PROJECT_DIR$/Sending/CreateServer.html" />
@@ -146,16 +198,44 @@
         <option value="$PROJECT_DIR$/Sending/CreatePlan.html" />
         <option value="$PROJECT_DIR$/Sending/TemplateTags.html" />
         <option value="$PROJECT_DIR$/Sending/CreateTemplate.html" />
-        <option value="$PROJECT_DIR$/Contacts.html" />
         <option value="$PROJECT_DIR$/Blacklist.html" />
+        <option value="$PROJECT_DIR$/AddCustomer.html" />
+        <option value="$PROJECT_DIR$/CreateTemplate.html" />
+        <option value="$PROJECT_DIR$/CustomizeTheme.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Keywords.html" />
+        <option value="$PROJECT_DIR$/NewSubscription.html" />
+        <option value="$PROJECT_DIR$/Numbers.html" />
+        <option value="$PROJECT_DIR$/Plan.html" />
+        <option value="$PROJECT_DIR$/MMS - CampaignBuilder.html" />
+        <option value="$PROJECT_DIR$/MMS - QuickSend.html" />
+        <option value="$PROJECT_DIR$/MMS - SendUsingFile.html" />
+        <option value="$PROJECT_DIR$/NewKeyword.html" />
+        <option value="$PROJECT_DIR$/SenderID.html" />
+        <option value="$PROJECT_DIR$/SendingServer.html" />
+        <option value="$PROJECT_DIR$/Server.html" />
+        <option value="$PROJECT_DIR$/SettingsAddNew.html" />
+        <option value="$PROJECT_DIR$/Subscription.html" />
+        <option value="$PROJECT_DIR$/TemplateTags.html" />
+        <option value="$PROJECT_DIR$/Voice - CampaignBuilder.html" />
+        <option value="$PROJECT_DIR$/Voice - QuickSend.html" />
+        <option value="$PROJECT_DIR$/Voice - SendUsingFile.html" />
+        <option value="$PROJECT_DIR$/Whatsapp - CampaignBuilder.html" />
+        <option value="$PROJECT_DIR$/Whatsapp - QuickSend.html" />
+        <option value="$PROJECT_DIR$/Whatsapp - SendUsingFile.html" />
+        <option value="$PROJECT_DIR$/CreateServer.html" />
+        <option value="$PROJECT_DIR$/CreatePlan.html" />
+        <option value="$PROJECT_DIR$/ClientDashboard.html" />
+        <option value="$PROJECT_DIR$/Contacts.html" />
+        <option value="$PROJECT_DIR$/Home.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-1866" />
+    <option name="y" value="-182" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -207,17 +287,17 @@
       <workItem from="1643717977662" duration="313000" />
       <workItem from="1647347974551" duration="16317000" />
       <workItem from="1647435267837" duration="1549000" />
-      <workItem from="1648463927222" duration="234000" />
+      <workItem from="1648463927222" duration="5461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18413000" />
+    <option name="totallyTimeSpent" value="23640000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="703" extended-state="6" />
+    <frame x="-1866" y="-182" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13009922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -230,7 +310,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32807016" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33852544" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -238,7 +318,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25248072" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13065049" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,7 +331,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33852544" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -263,74 +343,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Settings/SettingsAddNew.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/add.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/attach.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/background.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/Business, analytics, sucess, startup, Technology _ account, setting, options, preferences.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer/AddCustomer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sending/Plan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sending/AddNumber.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registrationPages/accountInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registrationPages/billing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="216" column="32" selection-start-line="216" selection-start-column="32" selection-end-line="216" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registrationPages/personalInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="84" selection-start-line="56" selection-start-column="84" selection-end-line="56" selection-end-column="84" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Customer/NewCustomer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-320" />
@@ -364,22 +376,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CustomizeTheme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="46" lean-forward="true" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Home.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientDashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884">
-          <caret line="232" column="50" lean-forward="true" selection-start-line="232" selection-start-column="50" selection-end-line="232" selection-end-column="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sending/SendingServer.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -400,17 +398,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sending/CreateServer.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4428">
-          <caret line="405" column="16" lean-forward="true" selection-start-line="405" selection-start-column="16" selection-end-line="405" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sending/CreateServer.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,24 +447,260 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Contacts.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+        <state relative-caret-position="4">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddCustomer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddNumber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="211" column="19" selection-start-line="211" selection-start-column="19" selection-end-line="211" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keywords.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="384" column="66" lean-forward="true" selection-start-line="384" selection-start-column="66" selection-end-line="384" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MMS - CampaignBuilder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="268" column="58" lean-forward="true" selection-start-line="268" selection-start-column="58" selection-end-line="268" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MMS - QuickSend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="144" column="38" lean-forward="true" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MMS - SendUsingFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret line="144" column="38" lean-forward="true" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewCustomer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewKeyword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="145" column="38" selection-start-line="145" selection-start-column="38" selection-end-line="145" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewSubscription.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Numbers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4162">
+          <caret line="393" column="66" lean-forward="true" selection-start-line="393" selection-start-column="66" selection-end-line="393" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4692">
+          <caret line="276" column="56" lean-forward="true" selection-start-line="276" selection-start-column="56" selection-end-line="276" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderID.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="393" column="66" lean-forward="true" selection-start-line="393" selection-start-column="66" selection-end-line="393" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SendingServer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="407" column="66" selection-start-line="407" selection-start-column="66" selection-end-line="407" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="141" column="52" lean-forward="true" selection-start-line="141" selection-start-column="52" selection-end-line="141" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SettingsAddNew.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="341" column="66" selection-start-line="341" selection-start-column="66" selection-end-line="341" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subscription.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="382" selection-start-line="382" selection-end-line="382" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateTags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="366" column="66" selection-start-line="366" selection-start-column="66" selection-end-line="366" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice - CampaignBuilder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="268" column="58" selection-start-line="268" selection-start-column="58" selection-end-line="268" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice - QuickSend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="212" column="50" lean-forward="true" selection-start-line="212" selection-start-column="50" selection-end-line="212" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voice - SendUsingFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="220" column="54" selection-start-line="220" selection-start-column="54" selection-end-line="220" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Whatsapp - CampaignBuilder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="268" column="58" selection-start-line="268" selection-start-column="58" selection-end-line="268" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Whatsapp - QuickSend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="203" column="50" lean-forward="true" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Whatsapp - SendUsingFile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="164" column="50" selection-start-line="164" selection-start-column="50" selection-end-line="164" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Blacklist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="-2023">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/ChatCenter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="-5083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientDashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2822">
+          <caret line="134" column="73" selection-start-line="134" selection-start-column="73" selection-end-line="134" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreatePlan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="195" column="58" selection-start-line="195" selection-start-column="58" selection-end-line="195" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateServer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4080">
+          <caret line="216" column="58" selection-start-line="216" selection-start-column="58" selection-end-line="216" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="194" column="58" selection-start-line="194" selection-start-column="58" selection-end-line="194" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomizeTheme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="147" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registrationPages/accountInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-717" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="56" column="120" lean-forward="true" selection-start-line="56" selection-start-column="120" selection-end-line="56" selection-end-column="120" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#form#0;n#div#2;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="82" column="75" lean-forward="true" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
