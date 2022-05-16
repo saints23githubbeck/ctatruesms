@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True SMS</title>
+    <link rel="stylesheet" href="boostrap/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dashboardPages.css">
+    <script src="https://kit.fontawesome.com/ca2912634d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="container-fluid contentContainer">
+            <div class="row g-0">
+
+
+                        <div class="col-2">
+                            <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" onclick="displayContent()">
+                                    <span class="navbar-toggler-icon navToggler"></span>
+                                </button>
+                                <div class="nav collapse navbar-collapse" id="navBar">
+                                    <div class="navbar nav p-2 sidenav">
+                                        <a href="Home.html" class="navbar-brand text-success p-0">
+                                            <h3>TRUE SMS</h3>
+                                        </a>
+                                        <div class="navbar sidenav">
+                                            <a href="Home.html" class="nav-link text-secondary">
+                                                <img src="images/home.png" alt="home" class=" navImage">
+                                                <span class="mx-2">Dashboard</span>
+                                            </a>
+                                            <a href="report.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/report.png" alt="report" class="navImage">
+                                                <span class="mx-2">Reports</span>
+                                            </a>
+                                            <button class="dropdown-btn text-secondary mt-2">
+                                                <img src="images/sending.png" alt="sending" class="navImage">
+                                                <span class="mx-2">Sending</span>
+                                                <i class="fa fa-caret-down mx-1"></i>
+                                            </button>
+                                            <div class="dropdown-container">
+                                                <a href="SendingServer.html" class="dropdown-item">
+                                                    <img src="images/send.png" alt="send" class="dropdownImage">
+                                                    <span class="mx-1">Sending Servers</span>
+                                                </a>
+                                                <a href="SenderID.html" class="dropdown-item">
+                                                    <img src="images/sender.png" alt="sender" class="dropdownImage">
+                                                    <span class="mx-1">Sender ID</span>
+                                                </a>
+                                                <a href="Numbers.html" class="dropdown-item">
+                                                    <img src="images/numbers.png" alt="numbers" class="dropdownImage">
+                                                    <span class="mx-1">Numbers</span>
+                                                </a>
+                                                <a href="Keywords.html" class="dropdown-item">
+                                                    <img src="images/keyword.png" alt="keyword" class="dropdownImage">
+                                                    <span class="mx-1">Keyword</span>
+                                                </a>
+                                                <a href="TemplateTags.html" class="dropdown-item">
+                                                    <img src="images/tags.png" alt="tags" class="dropdownImage">
+                                                    <span class="mx-1">Template Tags</span>
+                                                </a>
+                                            </div>
+                                            <a href="Plan.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/plan.png" alt="plan" class="navImage">
+                                                <span class="mx-2">Plan</span>
+                                            </a>
+                                            <button class="dropdown-btn text-secondary mt-2">
+                                                <img src="images/customer.png" alt="customer" class="navImage">
+                                                <span class="mx-2">Customer</span>
+                                                <i class="fa fa-caret-down text-secondary"></i>
+                                            </button>
+                                            <div class="dropdown-container">
+                                                <a href="AddCustomer.html" class="dropdown-item">
+                                                    <img src="images/customer.png" alt="customer" class="dropdownImage">
+                                                    <span class="mx-3">Customers</span>
+                                                </a>
+                                                <a href="Subscription.html" class="dropdown-item">
+                                                    <img src="images/plan.png" alt="subscription" class="dropdownImage">
+                                                    <span class="mx-3">Subscriptions</span>
+                                                </a>
+                                            </div>
+                                            <a href="CustomizeTheme.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/customizeTheme.png" alt="customizeTheme" class="navImage">
+                                                <span class="mx-2">Customize Theme</span>
+                                            </a>
+                                            <a href="admin.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/administrator.png" alt="administrator" class="navImage">
+                                                <span class="mx-1">Administrator</span>
+                                            </a>
+                                            <a href="#" class="nav-link text-secondary mt-2">
+                                                <img src="images/security.png" alt="security" class="navImage">
+                                                <span class="mx-2">Security</span>
+                                            </a>
+                                            <a href="allSettings%20-%20General.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/settings.png" alt="settings" class="navImage">
+                                                <span class="mx-2">Settings</span>
+                                            </a>
+                                            <a href="allInvoices.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/info.png" alt="settings" class="navImage">
+                                                <span class="mx-2">All Invoices</span>
+                                            </a>
+
+                                            <a href="smsHistory.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/sms.png" alt="settings" class="navImage">
+                                                <span class="mx-2">SMS History</span>
+                                            </a>
+                                            <h5 class="text-success font-weight-bold mt-2 text-center">CLIENT PAGES</h5>
+
+                                            <a href="ClientDashboard.html" class="nav-link text-secondary">
+                                                <img src="images/home.png" alt="home" class="navImage">
+                                                <span class="mx-2">Home</span>
+                                            </a>
+                                            <a href="clientReport.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/report.png" alt="report" class="navImage">
+                                                <span class="mx-2">Client Report</span>
+                                            </a>
+                                            <button class="dropdown-btn text-secondary mt-2">
+                                                <img src="images/sending.png" alt="sending" class="navImage">
+                                                <span class="mx-2">Sending</span>
+                                                <i class="fa fa-caret-down mx-1"></i>
+                                            </button>
+                                            <div class="dropdown-container">
+                                                <a href="SendingServer.html" class="dropdown-item">
+                                                    <img src="images/send.png" alt="send" class="dropdownImage">
+                                                    <span class="mx-1">Sending Servers</span>
+                                                </a>
+                                                <a href="SenderID.html" class="dropdown-item">
+                                                    <img src="images/sender.png" alt="sender" class="dropdownImage">
+                                                    <span class="mx-1">Sender ID</span>
+                                                </a>
+                                                <a href="Numbers.html" class="dropdown-item">
+                                                    <img src="images/numbers.png" alt="numbers" class="dropdownImage">
+                                                    <span class="mx-1">Numbers</span>
+                                                </a>
+                                                <a href="Keywords.html" class="dropdown-item">
+                                                    <img src="images/keyword.png" alt="keyword" class="dropdownImage">
+                                                    <span class="mx-1">Keyword</span>
+                                                </a>
+                                                <a href="TemplateTags.html" class="dropdown-item">
+                                                    <img src="images/tags.png" alt="tags" class="dropdownImage">
+                                                    <span class="mx-1">Template Tags</span>
+                                                </a>
+                                            </div>
+                                            <a href="Contacts.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/contacts.png" alt="contacts" class="navImage">
+                                                <span class="mx-2">Contacts</span>
+                                            </a>
+                                            <a href="Blacklist.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/blacklist.png" alt="blacklist" class="navImage">
+                                                <span class="mx-2">Blacklist</span>
+                                            </a>
+                                            <a href="#" class="nav-link text-secondary mt-2">
+                                                <img src="images/sms.png" alt="sms" class="navImage">
+                                                <span class="mx-2">SMS</span>
+                                            </a>
+                                            <button class="dropdown-btn text-secondary mt-2">
+                                                <img src="images/voice.png" alt="voice" class="navImage">
+                                                <span class="mx-2">Voice</span>
+                                                <i class="fa fa-caret-down mx-3"></i>
+                                            </button>
+                                            <div class="dropdown-container">
+                                                <a href="Voice - CampaignBuilder.html" class="dropdown-item">
+                                                    <img src="images/builder.png" alt="numbers" class="dropdownImage">
+                                                    <span class="mx-1">Campaign Builder</span>
+                                                </a>
+                                                <a href="Voice - QuickSend.html" class="dropdown-item">
+                                                    <img src="images/send.png" alt="keyword" class="dropdownImage">
+                                                    <span class="mx-1">Quick Send</span>
+                                                </a>
+                                                <a href="Voice - SendUsingFile.html" class="dropdown-item">
+                                                    <img src="images/file2.png" alt="keyword" class="dropdownImage">
+                                                    <span class="mx-1">Send Using File</span>
+                                                </a>
+                                            </div>
+                                            <button class="dropdown-btn text-secondary mt-2">
+                                                <img src="images/mms.png" alt="mms" class="navImage">
+                                                <span class="mx-2">MMS</span>
+                                                <i class="fa fa-caret-down mx-3"></i>
+                                            </button>
+                                            <div class="dropdown-container">
+                                                <a href="MMS - CampaignBuilder.html" class="dropdown-item">
+                                                    <img src="images/builder.png" alt="numbers" class="dropdownImage">
+                                                    <span class="mx-1">Campaign Builder</span>
+                                                </a>
+                                                <a href="MMS - QuickSend.html" class="dropdown-item">
+                                                    <img src="images/send.png" alt="keyword" class="dropdownImage">
+                                                    <span class="mx-1">Quick Send</span>
+                                                </a>
+                                                <a href="MMS - SendUsingFile.html" class="dropdown-item">
+                                                    <img src="images/file2.png" alt="keyword" class="dropdownImage">
+                                                    <span class="mx-1">Send Using File</span>
+                                                </a>
+                                            </div>
+                                            <button class="dropdown-btn text-secondary mt-2">
+                                                <img src="images/whatsapp.png" alt="whatsapp" class="navImage">
+                                                <span class="mx-2">Whatsapp</span>
+                                                <i class="fa fa-caret-down mx-1"></i>
+                                            </button>
+                                            <div class="dropdown-container">
+                                                <a href="Whatsapp - CampaignBuilder.html" class="dropdown-item">
+                                                    <img src="images/builder.png" alt="numbers" class="dropdownImage">
+                                                    <span class="mx-1">Campaign Builder</span>
+                                                </a>
+                                                <a href="Whatsapp - QuickSend.html" class="dropdown-item">
+                                                    <img src="images/send.png" alt="keyword" class="dropdownImage">
+                                                    <span class="mx-1">Quick Send</span>
+                                                </a>
+                                                <a href="Whatsapp - SendUsingFile.html" class="dropdown-item">
+                                                    <img src="images/file2.png" alt="keyword" class="dropdownImage">
+                                                    <span class="mx-1">Send Using File</span>
+                                                </a>
+                                            </div>
+                                            <a href="ChatCenter.html" class="nav-link text-secondary mt-2">
+                                                <img src="images/chatCenter.png" alt="chatCenter" class="navImage">
+                                                <span class="mx-2">Chat Center</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+
+
+
+                <div class="col-10 mt-3 mt-3">
+
+                    <header class="bg-success">
+                        <div class="mx-1 row text-light">
+                            <div class="col-lg-8 mt-2">
+                                <img src="images/search.png" alt="search" class="navImage">
+                                <span class="mx-2">Search transactions, invoices or help</span>
+                            </div>
+                            <div class="col-lg-4 adminHeader">
+                                <img src="images/notification.png" alt="notification" width="20px" height="20px">
+                                <span>|</span>
+                                <button class="btn text-light dropdown-toggle" type="button">
+                                    ADMINISTRATOR
+                                </button>
+                                <img src="images/image2.png" alt="admin" class="rounded-circle" width="30px" height="30px">
+                            </div>
+                        </div>
+                    </header>
+
+                    <div class="allSettingsAuthenticationContainer">
+                        <div class="allSettingsContainer ms-3 me-2">
+
+                            <a href="allSettings%20-%20General.html">
+                                <div class=" eachSettingsCont">
+                                    <div><i class="fa-solid fa-gear"></i></div>
+                                    <div class="textContent">General</div>
+                                </div>
+                            </a>
+
+                            <a href="allSettings%20-%20systemEmail.html">
+                                <div class=" eachSettingsCont">
+                                    <div><i class="fa-solid fa-envelope"></i></div>
+                                    <div class="textContent"> System Email</div>
+                                </div>
+                            </a>
+
+                            <a href="allSettings - authentication.html">
+                                <div class=" eachSettingsCont">
+                                    <div><i class="fa-solid fa-key"></i></div>
+                                    <div class="textContent">Authentication</div>
+                                </div>
+                            </a>
+
+                            <a href="allSettings%20-%20notifications.html">
+                                <div class=" eachSettingsCont">
+                                    <div><i class="fa-solid fa-bell"></i></div>
+                                    <div class="textContent">Notification</div>
+                                </div>
+                            </a>
+
+                            <a href="allSettings%20-%20Pusher.html">
+                                <div class=" eachSettingsCont">
+                                    <div><i class="fa-solid fa-message"></i></div>
+                                    <div class="textContent"> Pusher</div>
+                                </div>
+                            </a>
+
+                            <a href="allSettings%20-%20cronJobs.html">
+                                <div class=" eachSettingsCont">
+                                    <div><i class="fa-solid fa-clock"></i></div>
+                                    <div class="textContent">Cron Jobs</div>
+                                </div>
+                            </a>
+
+                        </div>
+
+                        <div class="allSettingsFormSection me-2 ms-3 p-4">
+
+                            <form action="">
+
+                                <label class="form-label fw-normal">Allow client registration</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <label class="form-label fw-normal">Verification after registration</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <label class="form-label fw-normal">Two factor authentication in login</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <div class="mb-3 greenText">RECAPTCHA INFORMATION</div>
+                                <p class="mb-3">
+                                    <span class="redText">reCAPTCHA</span> is a free service that protects your site
+                                    from spam and abuse,
+                                    developed by <span class="redText">Google</span>. For this reason you will need a
+                                    Google Account first.
+                                    If you dont have, <span class="blueText">Simply Create a New Google Account</span>.
+                                    Once you have an Account
+                                    with Google, log into the <span class="blueText">reCAPTCHA Admin</span> page and
+                                    setup your Application install
+                                    URL. For more Details. Please check <span class="blueText">TRUE SMS BLOG</span>.
+                                </p>
+
+                                <label class="form-label fw-normal">reCAPTCHA site key</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <label class="form-label fw-normal">reCAPTCHA secret key</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <label class="form-label fw-normal">Captcha in Login</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <label class="form-label fw-normal">Captcha in client registration</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <div class="mb-3 greenText">FACEBOOK LOGIN</div>
+
+                                <label class="form-label fw-normal">Login with Facebook</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <p class="mb-3">
+                                    if you dont have a facebook app account, then you can create from here <span
+                                        class="blueText">Facebook developer Account</span>.
+                                    After creating the app, please select <span class="redText">Facebook Login</span>
+                                    option. Then select <span class="redText">WWW</span> option and
+                                    enter this url <span class="redText">True SMS</span> on <span class="redText">Site
+                                        URL</span> field. After that click on <span class="redText">Basic</span> option
+                                    under the <span class="redText">Settings</span> in left and sidebar and fill the
+                                    required details. <br>
+                                    Finally, add this redirect url <br>
+                                    <span class="redText">https://truesms.codeglen/demo/login/facebook/callback</span>
+                                    under the
+                                    <span class="redText">Facebook Login > Settings</span> on the left sidebar.
+                                </p>
+
+                                <label class="form-label fw-normal">App ID</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <label class="form-label fw-normal">App Secret</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <div class="mb-3 greenText">TWITTER LOGIN</div>
+
+                                <label class="form-label fw-normal">Login with Twitter</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <p class="mb-3">
+                                    if you dont have a twitter app account, then you can create from here <span
+                                        class="blueText">Twitter developer Account</span>.
+                                    After creating the app, please select <span class="redText">twitter Login</span>
+                                    option. Then select <span class="redText">WWW</span> option and
+                                    enter this url <span class="redText">True SMS</span> on <span class="redText">Site
+                                        URL</span> field. After that click on <span class="redText">Basic</span> option
+                                    under the <span class="redText">Settings</span> in left and sidebar and fill the
+                                    required details. <br>
+                                    Finally, add this redirect url <br>
+                                    <span class="redText">https://truesms.codeglen/demo/login/twitter/callback</span> on
+                                    <span class="redText">Callback URLs</span> field
+                                    and also put required information and collect <span class="redText">API Key and
+                                        Secret.</span> from <span class="redText">Keys and Tokens</span> tab.
+                                </p>
+
+                                <label class="form-label fw-normal">API Key</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <label class="form-label fw-normal">Secret Key</label>
+                                <input type="text" class="form-control mb-3">
+
+
+                                <div class="mb-3 greenText">GOOGLE LOGIN</div>
+
+                                <label class="form-label fw-normal">Login with Google</label>
+                                <input type="text" class="form-control mb-3">
+
+
+                                <p class="mb-3">
+                                    if you dont have a twitter app account, then you can create from here <span
+                                        class="blueText">Google developer Console</span>.
+                                    and create a new <span class="redText">project</span>. After successfully created a
+                                    new project, you need, you need to select
+                                    the created proojects on the top menu click on <span class="redText">OAuth Consent
+                                        screen</span> and select <span class="redText">External</span>
+                                    option. After that, fill your website URl, privacy policy URL, etc. Then click <span
+                                        class="redText">Credentials</span> menu option
+                                    from the left side and select <span class="redText">OAuth Client ID</span> option.
+                                    Finally , select <span class="redText">Web Application</span>
+                                    and insert your application name, fill up this url <br>
+                                    <span class="redText">https://truesms.codeglen/demo/login/google/callback</span> on
+                                    Authorized redirects URL. Once you have clicked the create button, then you
+                                    can get your <span class="redText">Client ID</span> and your <span
+                                        class="redText">client secret key</span>
+                                </p>
+
+                                <label class="form-label fw-normal">Client ID</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <label class="form-label fw-normal">Client Secret</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <div class="mb-3 greenText">GITHUB LOGIN</div>
+
+                                <p>
+                                    if you dont have a Github OAuth Application, then you can create from here. Register
+                                    a new OAuth Application. Then put the Application name, description and enter this
+                                    url
+                                    <span class="redText">https://truesms.codeglen/demo/login/github/callback</span> on
+                                    <span class="redtext">Authorization callback URL</span> field
+                                    Once you have clicked on the Register Application button, then you can get your
+                                    <span class="redText">Client ID</span> and
+                                    your <span class="redText">client secret key</span>
+                                </p>
+
+                                <label class="form-label fw-normal">Client ID</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <label class="form-label fw-normal">Client Secret</label>
+                                <input type="text" class="form-control mb-3">
+
+                                <button class="allSettings-AuthenticationBtn">
+                                    <i class="fa-solid fa-floppy-disk"></i>
+                                    Save
+                                </button>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="boostrap/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

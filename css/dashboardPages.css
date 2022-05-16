@@ -1,0 +1,1710 @@
+:root {
+    --darkGreen: #28A745;
+    --lightGreen: #0cb381;
+    --midGreen: #02D3AF;
+    --gradientGreen1: #02D3AF;
+    --gradientGreen2: #28C774;
+    --red: #f61331;
+    --blue: #2b2bff;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navImage{
+    height: 20px;
+    width: 20px;
+
+}
+
+.sidenav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.dropdownImage {
+    height: 15px;
+    width: 15px;
+}
+.sideBar{
+    height: 500px;
+    overflow-y: auto;
+}
+
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+}
+
+ /* ::-webkit-scrollbar{
+    
+}   */
+
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  } */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+    background: #888; 
+  } */
+
+
+/* General Styles */
+.topContentContainer {
+    background: var(--darkGreen);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageContainer {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.imageContainer>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.rightTopCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activeNotification {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: var(--red);
+    position: absolute;
+    right: 25%;
+    top: 0;
+}
+
+.notificationContainer {
+    color: #ffffff;
+    position: relative;
+    border-right: 1px solid white;
+}
+
+span.adminText {
+    color: #ffffff;
+    font-size: 0.6rem;
+}
+
+.searchContainer label{
+    display: inline;
+    font-size: 0.7rem;
+}
+
+.searchContainer>form>span>input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+::-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.searchContainer>form {
+    color: #ffffff;
+}
+
+.addSpamWordBtn a{
+    text-decoration: none;
+    color: #fff;
+}
+.addBlacklistBtn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.createBtn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.addNewPlanTopBtn a{
+    text-decoration: none;
+    color: #fff;
+}
+.addNewCurrencyBtn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.addNewCurrencyBtn,
+.addBlacklistBtn,
+.addNewPlanTopBtn,
+.addSpamWordBtn,
+.actionBtn,
+.createBtn,
+.exportBtn,
+.addCountryBtn,
+.addLanguageBtn {
+    border: none;
+    outline: none;
+    height: 2.5rem;
+    width: 7rem;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 4%;
+}
+
+.addCountryBtn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.actionBtn {
+    background: #4079fd;
+}
+
+.addNewCurrencyBtn,
+.addNewPlanTopBtn,
+.addBlacklistBtn,
+.addSpamWordBtn,
+.createBtn,
+.addCountryBtn,
+.addLanguageBtn {
+    background: var(--darkGreen);
+}
+
+.exportBtn {
+    background: #4D9EA6;
+}
+
+.tableContainer {
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.table> :not(:first-child) {
+    border-top: 1px solid #000;
+}
+
+.table>:not(caption)>*>* {
+    padding: 1rem 1rem;
+}
+
+table {
+    caption-side: top;
+}
+
+thead {
+    border-top: 1px solid #000;
+}
+
+td,
+th {
+    border: none;
+}
+
+.table-responsive.emailTemplate .table td:nth-child(2) {
+    font-size: 0.9rem;
+}
+
+.table-responsive.emailTemplate .fa-gear,
+.table-responsive.paymentGateway .fa-gear {
+    font-size: 1.5rem;
+}
+
+.paginationSubTable {
+    margin-left: 10rem;
+}
+
+.searchEntryForm {
+    display: flex;
+}
+
+.imgCont {
+    height: 40px;
+    min-width: 40px;
+    border-radius: 5px;
+}
+
+.imgCont>span>img {
+    min-width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.imgContText{
+    min-width: max-content;
+}
+
+.nameAndImage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reportCont {
+    font-size: 15px;
+}
+
+.reportCont .imgCont {
+    height: 30px;
+    min-width: 30px;
+}
+
+.reportCont .nameAndImage {
+    font-size: 12px;
+}
+
+.activeStatusContainer {
+    height: 25px;
+    width: 45px;
+    border-radius: 20px;
+    background: #61c8a8;
+    border: 1px solid #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.activeStatusBall {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    position: absolute;
+    right: 0;
+    top: 5%;
+}
+
+.notActiveStatusContainer {
+    height: 25px;
+    width: 45px;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid #a9a4a4;
+    position: relative;
+    cursor: pointer;
+}
+
+.notActiveStatusBall {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #a9a4a4;
+    position: absolute;
+    left: 0;
+    top: 5%;
+}
+
+.changeStatus {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+
+.changeColour {
+    background: #ffffff;
+}
+
+.changeBg {
+    background: #61c8a8;
+    border: 1px solid #ffffff;
+}
+
+.entriesContainer {
+    display: flex;
+    justify-content: space-between;
+}
+/* .entries{
+    min-width: max-content;
+} */
+
+.entries select {
+    outline: none;
+}
+
+.sideBar nav ul li {
+    list-style-type: none;
+    margin-bottom: 4%;
+    padding: 0.5rem;
+}
+
+
+.currentNav {
+    width: 300px;
+}
+
+
+
+ul.navbar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dropDownContent {
+    display: none;
+    background-color: #fff;
+    z-index: 1;
+    font-size: 0.8rem;
+}
+
+.dropDownContent a:hover {
+    background: linear-gradient(to right, var(--gradientGreen1), var(--gradientGreen2)) var(--lightGreen);
+    color: #fff;
+}
+
+.dropDownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.showContent {
+    display: block;
+}
+
+
+
+.trueSmsText {
+    color: var(--lightGreen);
+    font-size: 1.8rem;
+    margin-left: 2%;
+    margin-bottom: 6px;
+}
+
+.arrowDown {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline;
+}
+
+
+
+li .fa-chevron-right,
+li .fa-chevron-down {
+    font-size: 0.6rem;
+    position: absolute;
+    right: 2%;
+    top: 35%;
+}
+
+.currentNav {
+    cursor: pointer;
+    position: relative;
+}
+
+.currentNav:hover {
+    background: linear-gradient(to right, var(--gradientGreen1), var(--gradientGreen2)) var(--lightGreen);
+    color: #ffffff;
+}
+
+.dropDownProfile{
+    position: absolute;
+    top:80px; 
+    right: 20px; 
+    background: #fff;
+    padding: 10px; 
+    border-radius: 4px;
+    display: none;
+}
+
+.dropDownProfile>div{
+    margin-bottom: 10%;
+}
+
+.showProfile{
+    display: block;
+}
+#adminContainer{
+    cursor: pointer;
+}
+
+.manageProfile, 
+.profile{
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.profile,
+.logout,
+.manageProfile{
+color: #5e5d5d;
+padding: 3px;
+}
+
+.profile:hover, 
+.logout:hover{
+    background: var(--lightGreen);
+    cursor: pointer;
+}
+
+.fa-basket-shopping {
+    color: var(--red);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.fa-pen-to-square,
+.fa-copy,
+.fa-eye-slash {
+    color: var(--lightGreen);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.plans .fa-pen-to-square{
+    font-size: 1rem;
+    cursor: pointer;
+    color: #43434F;
+}
+
+.page-item a {
+    color: #000;
+}
+
+.page-item a:hover {
+    background: var(--darkGreen);
+    color: #ffffff;
+}
+
+.col-9 {
+    background: #ede9e9;
+}
+
+.tableContainer,
+.createRoleContainer,
+.adminFormContainer {
+    box-shadow: 2px 2px 2px 2px #d5d0d0;
+}
+
+.allSettingsContainer :is(a) {
+    text-decoration: none;
+    color: var(--darkGreen);
+}
+
+/* Admin Creation Page */
+
+.adminFormContainer {
+    background: #ffffff;
+    width: 380px;
+    border-radius: 5px;
+}
+
+.adminFormContainer label {
+    color: #808080;
+    font-weight: bold;
+}
+
+.adminFormContainer span {
+    color: #808080;
+}
+
+.adminText {
+    color: #808080;
+}
+
+.notActiveCont {
+    height: 25px;
+    width: 45px;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid #a9a4a4;
+}
+
+.notActiveBall {
+    height: 100%;
+    width: 25px;
+    border-radius: 50%;
+    background: #a9a4a4;
+}
+
+.saveBtn {
+    border: none;
+    outline: none;
+    padding: 6px;
+    background: var(--darkGreen);
+    width: 90px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+.recommedSize {
+    color: var(--darkGreen);
+}
+
+
+/* client report */
+.subTypeMms {
+    color: blue;
+    background: rgb(138, 183, 220);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.subTypeWhatsapp {
+    color: var(--darkGreen);
+    background: #baeecb;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.subTypePlain {
+    border-radius: 2px;
+    background: #da70d6;
+    color: purple;
+    cursor: pointer;
+}
+
+.subTypeVoice {
+    border-radius: 2px;
+    color: #855804;
+    background: #ddc644;
+    cursor: pointer;
+}
+
+/* Create Role Style */
+
+.createRoleContainer {
+    width: 380px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.roleHeader {
+    color: var(--darkGreen);
+    font-weight: bold;
+}
+
+.createRoleContainer label {
+    font-size: 11px;
+    font-weight: bold;
+    color: #808080;
+}
+
+input[type="checkbox"] {
+    font-size: 8px;
+}
+
+.createRoleHeader {
+    font-size: 25px;
+    color: #808080;
+}
+
+.administrator_roles_container .nameAndImage{
+justify-content: unset;
+}
+
+/* Add New Word Style */
+.addNewWordContainer {
+    width: 30rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 4px #d5d0d0;
+}
+
+.addNewWordContainer>h1 {
+    font-size: 2rem;
+}
+
+.addNewWordContainer .saveNewWord {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+.addNewWordContainer .resetNewWord {
+    border: 2px solid #3737f2;
+    outline: none;
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #3737f2;
+    background: #fff;
+    text-align: center;
+}
+
+
+/* Add Blacklist styles */
+.addNewBlackListContainer {
+    width: 30rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 4px #d5d0d0;
+}
+
+.addNewBlackListContainer>h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.addNewBlackListContainer .saveNewBlacklist {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+.addNewBlackListContainer .resetNewBlaclist {
+    border: 2px solid #3737f2;
+    outline: none;
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #3737f2;
+    background: #fff;
+    text-align: center;
+}
+
+.separatorContainer {
+    display: flex;
+}
+
+.eachCont {
+    margin-right: 2%;
+    border: 2px solid #3737f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    color: #3737f2;
+    border-radius: 4px;
+    height: 48px;
+    cursor: pointer;
+}
+
+/* Currency plan Container */
+
+.currencyPlanBtn .createBtn a{
+text-decoration: none;
+color: #ffffff;
+}
+
+/* Add New Currency */
+.addNewCurrency{
+    width: 30rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 4px #d5d0d0;
+}
+
+.addNewCurrency>h1{
+    font-size: 2rem;
+}
+.saveNewCurrencyBtn{
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Add a new plan style */
+.addNewPlanContainer {
+    width: 30rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 4px #d5d0d0;
+}
+
+.addNewPlanBtn .createBtn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.addNewPlanContainer>h1 {
+    font-size: 2rem;
+}
+
+.addNewPlanContainer .saveNewPlanButton {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Add new Number styles */
+.addNewNumberContainer {
+    width: 30rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 4px #d5d0d0;
+}
+
+.addNewNumberContainer>h1 {
+    font-size: 2rem;
+}
+
+.addNewNumberContainer .saveNumberButton {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+.addNewNumberContainer .resetNumberButton {
+    border: 2px solid #3737f2;
+    outline: none;
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #3737f2;
+    background: #fff;
+    text-align: center;
+}
+
+/* report page style */
+.typeMmsDirection {
+    color: #0000ff;
+    background: #8ab7dc;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.typeWhatsappDirection {
+    color: var(--darkGreen);
+    background: rgb(186, 238, 203);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.typeVoiceDirection {
+    border-radius: 2px;
+    color: #855804;
+    background: #ddc644;
+    cursor: pointer;
+}
+
+.typePlainDirection {
+    border-radius: 2px;
+    background: #da70d6;
+    color: purple;
+    cursor: pointer;
+}
+
+
+/* Create a New Keyword Styles */
+.createNewKeywordContainer {
+    width: 30rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 4px #d5d0d0;
+}
+
+.createNewKeywordContainer>h1 {
+    font-size: 2rem;
+}
+
+.createNewKeywordContainer .saveNewKeywordButton {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+.createNewKeywordContainer .resetNewKeywordButton {
+    border: 2px solid #3737f2;
+    outline: none;
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #3737f2;
+    background: #fff;
+    text-align: center;
+}
+
+/* Add country Style */
+.addCountryContainer {
+    width: 30rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 4px #d5d0d0;
+}
+
+.addCountryContainer>h1 {
+    font-size: 2rem;
+}
+
+.addCountryContainer .addCountryButton {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Add New Language Style */
+.addNewLanguage {
+    width: 30rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 4px #d5d0d0;
+}
+
+.addNewLanguage>h1 {
+    font-size: 2rem;
+}
+
+.addNewLanguage .addNewLanguageButton {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    width: 90px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+.addLanguageBtn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* All settings - Authentication style */
+
+.eachSettingsCont {
+    background: #fff;
+    text-align: center;
+    padding: 8px;
+    height: 5rem;
+    width: 9rem;
+    font-weight: bold;
+}
+
+.eachSettingsCont:hover {
+    border-bottom: 5px solid var(--darkGreen);
+    color: var(--darkGreen);
+}
+
+.allSettingsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.allSettingsFormSection {
+    background: #fff;
+}
+
+.allSettingsFormSection :is(input) {
+    width: 50%;
+}
+
+.greenText {
+    color: var(--darkGreen);
+    margin-left: 15%;
+}
+
+.redText {
+    color: var(--red);
+}
+
+.blueText {
+    color: var(--blue);
+}
+
+.allSettingsFormSection :is(p) {
+    width: 60%;
+    word-wrap: break-word;
+}
+
+.allSettings-AuthenticationBtn {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    padding:5px 10px 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+/* All settings cron jobs style */
+
+.allSettingsCronJobs {
+    background: #fff;
+}
+
+.backgroundJobText {
+    color: var(--darkGreen);
+}
+
+.scrollCronJobs {
+    overflow-x: scroll;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+
+/* All settings Notification */
+.allSettingsNotification {
+    background: #fff;
+}
+
+
+.allSettingsNotification input[type="text"] {
+    width: 55%;
+}
+
+.allSettingsNotificationButton {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    padding:5px 10px 5px 10px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+/* All settings General styles */
+.allSettingsGeneral {
+    background: #fff;
+}
+
+.allSettingsGeneral input,
+.allSettingsGeneral textarea {
+    width: 55%;
+}
+
+.generalGreenText {
+    color: var(--darkGreen);
+}
+
+.allSettingsGeneralButton {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    padding:5px 10px 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+/* All Settings Pusher styles */
+.allSettingsPusher {
+    background: #fff;
+}
+
+.allSettingsPusherButton {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    padding:5px 10px 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+.allSettingsPusher p {
+    width: 55%;
+}
+
+.allSettingsPusher input {
+    width: 55%;
+}
+
+
+/* Settings Update Application Style */
+
+.updateApplicationContainer {
+    background: #fff;
+    width: 35rem;
+    border-radius: 10px;
+}
+
+.updateApplicationContainer :is(p) {
+    font-size: 1.5rem;
+}
+
+/* All invoices Style */
+
+.allInvoicesContainer{
+    font-size: 0.9rem;
+}
+
+.checkForUpdateBtn {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+/* All settings system Email */
+.allSettingsSystemEmail {
+    background: #fff;
+}
+
+.allSettingsSystemEmailButton {
+    border: 2px solid var(--darkGreen);
+    outline: none;
+    background: var(--darkGreen);
+    padding:5px 10px 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+}
+
+.iconGreen {
+    color: var(--darkGreen);
+}
+
+.allSettingsSystemEmail input {
+    width: 50%;
+}
+
+/* client Report Campaigns*/
+
+.statusDelivered {
+    background: var(--darkGreen);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.statusQueued {
+    background: #4D9EB8;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.statusScheduled {
+    background: #9C23A2;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.normalCampaign {
+    color: var(--darkGreen);
+    background: #baeecb;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.scheduledCampaign {
+    background: #e4ceed;
+    color: #d493dc;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.recurringCampaign {
+    background: #B9F3FD;
+    color: #76c7d3;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.typeWhatsapp {
+    color: #fff;
+    background: var(--darkGreen);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.typeVoice {
+    color: #fff;
+    background: #ED9720;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.typePlain {
+    color: #fff;
+    background: #A326AB;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.typeMms {
+    color: #fff;
+    background: #50A4B5;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* Client Report Received Messages */
+
+.receivedMessages :is(.subTypePlain) {
+    width: 90px;
+    background:#F6E3FF ;
+    color: #9f48a5;
+}
+
+
+/* Admin All invoices Report */
+.paidStatus{
+    background: var(--gradientGreen1);
+    color: #fff;
+    width: 60px;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Media Queries */
+
+@media all and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+    }
+
+    .searchContainer>form>input {
+        width: 300px;
+    }
+
+    .paginationSubTable {
+        margin-left: 50%;
+    }
+
+}
+
+@media all and (max-width:720px) {
+    .entriesContainer {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 5rem;
+    }
+
+    .currentNav .icons {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media all and (min-width:768px) {
+
+    .currentNav,
+    .dropDown {
+        width: 160px;
+    }
+}
+
+@media all and (min-width:897px) {
+
+    .currentNav,
+    .dropDown {
+        width: 170px;
+    }
+}
+
+@media all and (min-width: 1010px) {
+    .paginationSubTable {
+        margin-left: 55%;
+    }
+
+    .currentNav,
+    .dropDown {
+        width: 250px;
+    }
+}
+
+@media all and (min-width:1200px) {
+
+    .currentNav,
+    .dropDown {
+        width: 300px;
+    }
+}
+
+
+@media all and (max-width:1024px) {
+    .textContent {
+        font-size: 0.6rem;
+    }
+
+    .eachSettingsCont {
+        width: 7rem;
+    }
+}
+
+
+
+@media all and (max-width:992px) {
+    .textContent {
+        font-size: 0.6rem;
+    }
+
+    .eachSettingsCont {
+        width: 5.5rem;
+    }
+
+    .currentNav,
+    .dropDown {
+        width: 150px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .createRoleContainer {
+        width: 190px;
+        font-size: 0.5rem;
+    }
+
+    .adminImageContainer {
+        margin-left: 2rem;
+    }
+
+    .createRoleContainer label {
+        font-size: 0.5rem;
+    }
+
+    .roleHeader {
+        margin-bottom: 2%;
+    }
+
+    .addNewWordContainer,
+    .addNewCurrency,
+    .addNewNumberContainer,
+    .addNewBlackListContainer,
+    .createNewKeywordContainer,
+    .addNewPlanContainer,
+    .addCountryContainer,
+    .addNewLanguage,
+    .updateApplicationContainer {
+        width: 230px;
+    }
+
+    .addNewCurrency>h1{
+        font-size: 0.8rem;
+    }
+    .addNewPlanContainer>h1,
+    .addNewWordContainer>h1,
+    .addNewBlackListContainer>h1,
+    .addNewNumberContainer>h1,
+    .createNewKeywordContainer>h1,
+    .addCountryContainer>h1,
+    .addNewLanguage>h1 {
+        font-size: 1.3rem;
+    }
+
+    .addNewPlanContainer :is(p) {
+        font-size: 0.8rem;
+    }
+
+    .updateApplicationContainer :is(p) {
+        font-size: 1rem;
+    }
+
+    .checkForUpdateBtn {
+        font-size: 0.6rem;
+    }
+
+    .addNewPlanContainer label {
+        font-size: 0.7rem;
+    }
+
+    .addNewWordBtn,
+    .addNewBlackListBtn,
+    .newNumberButtons,
+    .createNewKeywordButtons {
+        display: flex;
+    }
+
+    .separatorContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .eachCont {
+        margin-bottom: 5%;
+    }
+
+    .allSettingsFormSection {
+        font-size: 1rem;
+    }
+
+    .allSettingsFormSection :is(input) {
+        width: 65%;
+    }
+
+    .textContent {
+        font-size: 0.6rem;
+    }
+
+    .eachSettingsCont {
+        width: 5rem;
+    }
+
+    .navText {
+        font-size: 0.8rem;
+    }
+
+    .dropText {
+        font-size: 8px;
+    }
+
+}
+
+
+@media all and (max-width:700px) {
+
+    .currentNav,
+    .dropDown {
+        width: 150px;
+    }
+}
+
+@media all and (max-width:620px) {
+
+    .currentNav,
+    .dropDown {
+        width: 120px;
+    }
+
+    .navText {
+        display: none;
+    }
+
+    span.dropText {
+        display: none;
+    }
+}
+
+
+@media all and (max-width:560px) {
+    .adminFormContainer {
+        width: 215px;
+    }
+
+    
+
+    .allSettingsFormSection {
+        font-size: 0.7rem;
+    }
+
+    .allSettingsFormSection :is(input) {
+        width: 65%;
+    }
+
+
+}
+
+@media all and (max-width:600px) {
+    .trueSmsText {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    .allSettingsSystemEmail input {
+        width: 65%;
+    }
+
+    .allSettingsSystemEmail label,
+    .allSettingsNotification label {
+        font-size: 0.8rem;
+    }
+
+    .allSettingsNotification input[type="text"] {
+        width: 80%;
+    }
+
+    .allSettingsNotification input[type="text"] {
+        font-size: 0.7rem;
+        width: 70%;
+    }
+
+    .allSettingsGeneral label,
+    .allSettingsPusher label {
+        font-size: 0.8rem;
+    }
+
+    .allSettingsGeneral input[type="text"],
+    .allSettingsGeneral input[type="file"] {
+        font-size: 0.7rem;
+    }
+
+    .allSettingsGeneral input[type="file"] {
+        font-size: 0.5rem;
+    }
+
+    .allSettingsGeneral p {
+        font-size: 0.7rem;
+    }
+
+    .allSettingsPusher p {
+        width: 65%;
+    }
+}
+
+
+
+@media all and (max-width:575px) {
+    .topContentContainer {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .textContent {
+        display: none;
+    }
+
+    .eachSettingsCont {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .currentNav {
+        width: 120px;
+    }
+
+    .dropDown {
+        width: 120px;
+    }
+
+}
+
+@media all and (max-width:512px) {
+
+    .currentNav,
+    .dropDown {
+        width: 80px;
+    }
+}
+
+@media all and (max-width:320px) {
+    span.adminText {
+        font-size: 0.6rem;
+    }
+
+    .addNewCurrency,
+    .addNewWordContainer,
+    .addNewBlackListContainer,
+    .addNewNumberContainer,
+    .createNewKeywordContainer,
+    .addNewPlanContainer,
+    .addCountryContainer,
+    .addNewLanguage,
+    .updateApplicationContainer {
+        width: 190px;
+    }
+    .addNewCurrency>h1{
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+    .addNewWordContainer>h1,
+    .addNewBlackListContainer>h1,
+    .addNewNumberContainer>h1,
+    .addNewPlanContainer>h1,
+    .addCountryContainer>h1,
+    .addNewLanguage>h1 {
+        font-size: 1rem;
+    }
+
+    .addNewCurrency label,
+    .addNewWordContainer label,
+    .addNewNumberContainer label,
+    .createNewKeywordContainer label,
+    .addCountryContainer label,
+    .addNewLanguage label {
+        font-size: 0.7rem;
+    }
+
+    .addNewPlanContainer label {
+        font-size: 0.6rem;
+    }
+
+    .addNewWordBtn .saveNewWord {
+        font-size: 0.7rem;
+    }
+
+    .addNewBlackListBtn .saveNewBlacklist,
+    .addNewBlackListBtn .resetNewBlaclist {
+        font-size: 0.7rem;
+    }
+
+    .addNewNumberContainer>p,
+    .createNewKeywordContainer>p {
+        font-size: 0.6rem;
+    }
+
+    .addNewPlanContainer :is(p) {
+        font-size: 0.6rem;
+    }
+
+    .newNumberButtons .saveNumberButton,
+    .newNumberButtons .resetNumberButton {
+        font-size: 0.7rem;
+    }
+
+    .createNewKeywordButtons .saveNewKeywordButton,
+    .createNewKeywordButtons .resetNewKeywordButton {
+        font-size: 0.7rem;
+    }
+    .saveNewWord,
+    .resetNewWord,
+    .saveNewPlanButton,
+    .saveNewCurrencyBtn,
+    .addCountryButton,
+    .addNewLanguageButton,
+    .allSettingsNotificationButton {
+        font-size: 0.7rem;
+    }
+
+    .allSettingsNotificationButton {
+        margin-left: 15%;
+    }
+
+
+    .allSettingsFormSection {
+        font-size: 0.5rem;
+    }
+
+    .allSettingsFormSection :is(input) {
+        width: 70%;
+    }
+
+    .eachSettingsCont {
+        height: 2rem;
+        width: 1.8rem;
+    }
+
+    .updateApplicationContainer :is(p) {
+        font-size: 0.8rem;
+    }
+
+    .checkForUpdateBtn {
+        font-size: 0.6rem;
+        width: 120px;
+    }
+
+    .allSettingsSystemEmail input,
+    .allSettingsGeneral input,
+    .allSettingsGeneral textarea {
+        width: 80%;
+    }
+
+    .allSettingsGeneral p {
+        font-size: 0.7rem;
+    }
+
+    .allSettingsSystemEmail label,
+    .allSettingsNotification label,
+    .allSettingsGeneral label {
+        font-size: 0.7rem;
+    }
+
+    .allSettingsSystemEmailButton,
+    .allSettingsGeneralButton,
+    .allSettingsPusherButton {
+        font-size: 0.7rem;
+    }
+
+    .allSettingsSystemEmail input[type="text"],
+    .allSettingsGeneral input[type="text"],
+    .allSettingsPusher input[type="text"] {
+        font-size: 0.7rem;
+    }
+
+    .allSettingsGeneral input[type="file"] {
+        font-size: 0.5rem;
+    }
+
+    .allSettingsNotification input[type="text"] {
+        width: 80%;
+        font-size: 0.7rem;
+    }
+
+    .allSettingsPusher p {
+        font-size: 0.6rem;
+        width: 70%;
+    }
+
+    .allSettingsPusher input {
+        width: 80%;
+    }
+
+    .allSettingsPusher label {
+        font-size: 0.7rem;
+    }
+
+    .currentNav {
+        width: 70px;
+    }
+
+    .dropDown {
+        width: 70px;
+    }
+
+
+}
